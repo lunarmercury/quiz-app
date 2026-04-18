@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Text, View, StyleSheet, ScrollView } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
-import { createNativeStackNavigator } from "@react-navigation/native-stack"
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { Button, ButtonGroup } from "react-native-elements";
 
 const Stack = createStackNavigator();
@@ -232,3 +232,4 @@ const styles = StyleSheet.create({
     marginVertical: 2,
   },
 });
+
