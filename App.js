@@ -185,7 +185,7 @@ export default function App() {
       prompt: "Professor Pan is a great professor.",
       type: "true-false",
       choices: ["True", "False"],
-      correct: 1,
+      correct: 0,
     },
   ];
 
