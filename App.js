@@ -4,7 +4,7 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { Button, ButtonGroup } from "@rneui/themed";
 
-const Stack = createStackNavigator();
+const Stack = createNativeStackNavigator();
 
 // Question Component
 export function Question({ route, navigation }) {
